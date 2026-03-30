@@ -1,0 +1,8 @@
+Idea is to make a tool that produce more evasive variants of the input binary.
+
+1. check for the bytes that is reason for the detection using yara rules.
+2. identify the bytes in the binary that leads to detection using yara tool, checks for the instruction that can be refactored. 
+encode the new instruction as byte. use tool like HxD to replace the respective byte in binary.
+3. checks the working of the binary because, modification should not break things.
+4. once every bytes got replaced, then try with other set of yara rules.
+5. the detection should be 0, till that the process should repeat.
