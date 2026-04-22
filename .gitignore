@@ -1,1 +1,6 @@
 /plan.txt
+.venv/
+/task.md
+bin/
+variants/
+rules/

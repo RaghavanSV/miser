@@ -1,0 +1,5 @@
+yara-python
+capstone
+keystone-engine
+angr
+requests
